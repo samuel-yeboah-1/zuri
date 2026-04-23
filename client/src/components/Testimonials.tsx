@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import { motion } from 'motion/react'
 import { LineReveal } from './ui/LineReveal'
-import { BlurFade } from './ui/BlurFade'
 
 const testimonials = [
   {
