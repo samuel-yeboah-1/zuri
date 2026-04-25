@@ -42,7 +42,7 @@ const testimonials = [
 
 function Stars() {
   return (
-    <div className="flex gap-0.5 text-[#C49A3C]" aria-label="5 stars">
+    <div className="flex gap-0.5 text-[#C49A3C]" role="img" aria-label="5 stars">
       {Array.from({ length: 5 }).map((_, i) => (
         <svg key={i} width="13" height="13" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
           <path d="M8 1l1.85 3.75 4.15.6-3 2.92.71 4.13L8 10.35l-3.71 1.95.71-4.13L2 5.35l4.15-.6z" />
