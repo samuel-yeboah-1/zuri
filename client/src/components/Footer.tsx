@@ -29,11 +29,11 @@ export default function Footer() {
 
           {/* Brand */}
           <motion.div custom={0} variants={colVariants} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} className="sm:col-span-2 lg:col-span-1">
-            <a href="#" className="inline-block overflow-hidden rounded-xl bg-white" style={{ width: '120px', height: '60px' }}>
+            <a href="#" className="inline-block">
               <img
-                src="/images/IMG_6472.JPG"
+                src="/images/Zuri Travels Logo PNG (B).png"
                 alt="Zuri Travels"
-                className="h-full w-full object-cover scale-[1.35]"
+                className="zuri-logo h-16 w-auto object-contain"
               />
             </a>
             <p className="mt-4 max-w-[34ch] text-sm leading-relaxed text-[var(--text-m)]">
@@ -86,9 +86,9 @@ export default function Footer() {
               Get in Touch
             </p>
             <ul className="flex flex-col gap-3 text-sm text-[var(--text-m)]">
-              <li><a href="#" className="hover:text-[#C49A3C] transition-colors duration-200">@zuri.travel</a></li>
-              <li><a href="#" className="hover:text-[#C49A3C] transition-colors duration-200">@zuri.travel on TikTok</a></li>
-              <li><a href="#" className="hover:text-[#C49A3C] transition-colors duration-200">+000 000 0000</a></li>
+              <li><a href="https://www.instagram.com/zuritravels7?igsh=dmpwNzZlMzgxM2lk&utm_source=qr" target="_blank" rel="noopener noreferrer" className="hover:text-[#C49A3C] transition-colors duration-200">@zuritravels7</a></li>
+              <li><a href="https://www.tiktok.com/@namarie.e?_r=1&_t=ZS-95pO072sAtB" target="_blank" rel="noopener noreferrer" className="hover:text-[#C49A3C] transition-colors duration-200">@namarie.e on TikTok</a></li>
+              <li><a href="https://wa.me/233558591901" target="_blank" rel="noopener noreferrer" className="hover:text-[#C49A3C] transition-colors duration-200">+233 55 859 1901</a></li>
             </ul>
           </motion.div>
         </div>

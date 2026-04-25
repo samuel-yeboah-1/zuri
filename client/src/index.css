@@ -163,6 +163,11 @@ body {
 }
 .flashlight-card:hover::before { opacity: 1; }
 
+/* Logo adapts to dark theme */
+[data-theme="dark"] .zuri-logo {
+  filter: brightness(0) invert(1);
+}
+
 [data-theme="dark"] .flashlight-card::before {
   background: radial-gradient(
     380px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),

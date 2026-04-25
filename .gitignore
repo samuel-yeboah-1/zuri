@@ -17,6 +17,9 @@ Thumbs.db
 # Editor directories
 .vscode/
 .idea/
+
+# Claude Code local settings
+.claude/settings.local.json
 *.swp
 *.swo
 
@@ -27,3 +30,6 @@ npm-debug.log*
 
 # TypeScript cache
 *.tsbuildinfo
+
+# Local Netlify folder
+.netlify

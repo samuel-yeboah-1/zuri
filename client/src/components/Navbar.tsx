@@ -33,11 +33,11 @@ export default function Navbar() {
             className={`flex h-14 items-center justify-between rounded-xl border border-[var(--border)] px-4 backdrop-blur-md transition-shadow duration-300 ${scrolled ? 'shadow-md shadow-black/5' : ''}`}
             style={{ backgroundColor: 'var(--nav-bg)' }}
           >
-            <a href="#" className="shrink-0 overflow-hidden rounded-lg bg-white" style={{ width: '80px', height: '36px' }}>
+            <a href="#" className="shrink-0">
               <img
-                src="/images/IMG_6472.JPG"
+                src="/images/Zuri Travels Logo PNG (B).png"
                 alt="Zuri Travels"
-                className="h-full w-full object-cover scale-[1.35]"
+                className="zuri-logo h-10 w-auto object-contain"
               />
             </a>
 
@@ -94,11 +94,11 @@ export default function Navbar() {
               className="flex items-center justify-between px-4"
               style={{ height: '40px' }}
             >
-              <a href="#" className="shrink-0 overflow-hidden rounded-md bg-white" style={{ width: '64px', height: '28px' }}>
+              <a href="#" className="shrink-0">
                 <img
-                  src="/images/IMG_6472.JPG"
+                  src="/images/Zuri Travels Logo PNG (B).png"
                   alt="Zuri Travels"
-                  className="h-full w-full object-cover scale-[1.35]"
+                  className="zuri-logo h-8 w-auto object-contain"
                 />
               </a>
 
