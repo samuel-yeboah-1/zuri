@@ -1,4 +1,6 @@
 import { motion } from 'motion/react'
+import { SocialIcon } from './ui/SocialIcon'
+import { socials } from '../data/socials'
 
 const quickLinks = [
   { label: 'Experiences',    href: '#experiences' },
@@ -85,11 +87,9 @@ export default function Footer() {
             <p className="mb-5 text-[10px] font-bold uppercase tracking-[0.22em] text-[var(--text-f)]">
               Get in Touch
             </p>
-            <ul className="flex flex-col gap-3 text-sm text-[var(--text-m)]">
-              <li><a href="https://www.instagram.com/zuritravels7?igsh=dmpwNzZlMzgxM2lk&utm_source=qr" target="_blank" rel="noopener noreferrer" className="hover:text-[#C49A3C] transition-colors duration-200">@zuritravels7</a></li>
-              <li><a href="https://www.tiktok.com/@namarie.e?_r=1&_t=ZS-95pO072sAtB" target="_blank" rel="noopener noreferrer" className="hover:text-[#C49A3C] transition-colors duration-200">@namarie.e on TikTok</a></li>
-              <li><a href="https://wa.me/233558591901" target="_blank" rel="noopener noreferrer" className="hover:text-[#C49A3C] transition-colors duration-200">+233 55 859 1901</a></li>
-            </ul>
+            <div className="flex items-center gap-3">
+              {socials.map(s => <SocialIcon key={s.name} {...s} size={18} />)}
+            </div>
           </motion.div>
         </div>
 
