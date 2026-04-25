@@ -18,8 +18,8 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Claude Code local settings
-.claude/settings.local.json
+# Claude Code local data
+.claude/
 *.swp
 *.swo
 
@@ -30,6 +30,9 @@ npm-debug.log*
 
 # TypeScript cache
 *.tsbuildinfo
+
+# Vite dev cache
+.vite/
 
 # Local Netlify folder
 .netlify
